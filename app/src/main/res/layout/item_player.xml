@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#EEEEEE">
+
+    <TextView
+        android:id="@+id/playerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="الاسم"/>
+
+    <TextView
+        android:id="@+id/playerPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="الموبايل"/>
+
+    <TextView
+        android:id="@+id/playerBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="الرصيد"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/approveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تفعيل"/>
+
+        <Button
+            android:id="@+id/blockBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="حظر"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+</LinearLayout>
